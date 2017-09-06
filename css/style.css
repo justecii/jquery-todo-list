@@ -1,0 +1,94 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+  display: inline-block;
+  vertical-align: top;
+}
+h1 {
+	color: white;
+	font-size: 3.2em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#myList {
+	background-image: url(https://i.ytimg.com/vi/3R-GIy6Wyh8/maxresdefault.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: 'Caveat', cursive;
+}
+#mainList {
+	text-align: left;
+	border: 2px solid brown;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 0px 30px 0px 30px;
+}
+#inputText {
+  font-size: 20px;
+  width: 150px;
+}
+#submitBtn {
+  font-size: 20px;
+  padding: 2px;
+  color: brown;
+  background-color: orange;
+}
+#formBox {
+	width: 40%;
+	margin-left: 1%;
+	margin-top: 2%;
+	border: 1px solid brown;
+	border-radius: 80px 0px 120px 0px;
+	padding: 2% 2% 2% 5%;
+	font-size: 30px;
+	font-family: 'Caveat', cursive;
+	position: absolute;
+	top:450px;
+	left:3%;
+	background-color: beige;
+}
+ul {
+  list-style: none;
+  margin-left: 30%;
+}
+li {
+	font-size: 40px;
+	color: brown;
+	line-height: 40px;
+	font-weight: bold;
+}
+.tag {
+	text-align: center;
+	width: 100%;
+	color: brown;
+}
+button {
+	margin-right: 5px;
+	height: 20px;
+	width: 20px;
+	padding-top: 0;
+	border-radius: 50px;
+	background-color: white;
+	vertical-align: top;
+	font-size: 15px;
+	padding: 0;
+	line-height: 15px;
+	font-weight: bold;
+}
+button:hover {
+	background-color: brown;
+}
+.delete {
+	margin-top: 10px;
+
+}
